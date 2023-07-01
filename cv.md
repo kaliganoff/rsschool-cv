@@ -30,6 +30,7 @@ counter2 = 0;
 };
 ```
 ## Work Experience
+- CV in Markdown
 ## Education
 - Bachelor of Linguistics
 ## Languages
