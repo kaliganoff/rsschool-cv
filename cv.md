@@ -8,27 +8,27 @@ I wrote my first programm in school on Liberty Basic. It could play .wav files a
 - **Version Control:** GIT, Github
 - **Other:** Touch typing
 ## Code
-```
-var counter = 0;
- var col = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple'];
- var col1;
- var col2;
- var counter2 = 0;
 
-function f(h) {
-counter++;
-counter2++;
-col1 = col[counter2-1];
-col2 = col[7-counter2]
-console.log(h);
-h.innerHTML = "Вы нажали на кнопку: " + counter + " раз.";
-h.style.background = col1;
-h.style.color = col2;
+    var counter = 0;
+    var col = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple'];
+    var col1;
+    var col2;
+    var counter2 = 0;
 
-if (counter2 == 7)
-counter2 = 0;
-};
-```
+    function f(h) {
+    counter++;
+    counter2++;
+    col1 = col[counter2-1];
+    col2 = col[7-counter2]
+    console.log(h);
+    h.innerHTML = "Вы нажали на кнопку: " + counter + " раз.";
+    h.style.background = col1;
+    h.style.color = col2;
+
+    if (counter2 == 7)
+    counter2 = 0;
+    };
+
 ## Work Experience
 - CV in Markdown
 ## Education
