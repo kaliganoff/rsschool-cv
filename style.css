@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-    border: 1px solid red
 }
 
 .nav-list {
@@ -33,12 +32,30 @@ body {
     text-decoration: none;
   }
 
+.contacts-list {
+  list-style: circle;
+}
+
+.skills-list {
+list-style: circle;
+}
+
+.lang-list{
+  list-style: circle;
+}
+
+.projects-list {
+  list-style: circle;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
 .main {
-    border: 1px solid red
 }
 
 .footer {
-    border: 1px solid red
 }
 
 .container {
@@ -61,3 +78,20 @@ body {
       width: 100%;
     }
   }
+
+  .github-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .rss-img {
+    height: 100px;
+    width: 100px;
+  }
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
