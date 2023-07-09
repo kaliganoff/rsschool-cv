@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">    
+    <title>Nikolai Kaliganov</title>
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <main class="main">
+    <div class="container main-container">
+        <section class="section" id="profile">
+            <h1>Nikolai Kaliganov</h1>
+            <p class="subheader">I'm studying Front-End.</p>
+            <img class="my-photo" src="assets/photo.jpg" alt="Nikolai Kaliganov">
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts-list">
+                <li class="contacts-item"><b>E-mail:</b> kaliganoff@yahoo.com</li>
+                <li class="contacts-item"><b>Discord:</b> @kaliganoff</li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>I wrote my first programm on Liberty Basic when I was in school. It could play .wav files and display images. Since then I didn’t write any programs but I still remember some basics. I have already learned some aspects of HTML, CSS and JavaScript and hope to better my knowledge during this course.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-item"><b>Web-development:</b> Basics of HTML, CSS and JavaScript</li>
+                <li class="skills-item"><b>Version Control:</b> GIT, Github</li>
+                <li class="skills-item"><b>Other:</b> Touch typing</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2>Code</h2>
+            <pre>
+                <code class="code">
+var counter = 0;
+var col = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple'];
+var col1;
+var col2;
+var counter2 = 0;
+
+function f(h) {
+counter++;
+counter2++;
+col1 = col[counter2-1];
+col2 = col[7-counter2]
+console.log(h);
+h.innerHTML = "Вы нажали на кнопку: " + counter + " раз.";
+h.style.background = col1;
+h.style.color = col2;
+
+if (counter2 == 7)
+counter2 = 0;
+};
+                </code>
+            </pre>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <ul class="projects-list">
+                <li class="projects-item"><a href="https://github.com/kaliganoff/rsschool-cv/blob/gh-pages/cv.md" class="project-link">CV in Markdown</a></li>
+                <li class="projects-item"><a href="https://github.com/kaliganoff/rsschool-cv/blob/rsschool-cv-html/index.html" class="project-link">CV in HTML</a></li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <p>Bachelor of Linguistics at Pushkin Leningrad State University</p>
+        </section>
+        <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul class="lang-list">
+                <li class="lang-item"><b>Russian:</b> Native Speaker</li>
+                <li class="lang-item"><b>English:</b> C2</li>
+                <li class="lang-item"><b>German:</b> B1</li>
+            </ul>
+        </section>
+    </div>
+   </main>
+   <footer class="footer">
+    <div class="container">
+        <a href="https://github.com/kaliganoff"><img class="github-img" src="assets/github.png" alt="My Github"></a>
+        <span class="year">2023</span>
+        <a href="https://rs.school/js/"><img class="rss-img" src="assets/rs_school_js.svg" alt="RS School"></a>
+    </div>
+   </footer>
+</body>
+</html>
